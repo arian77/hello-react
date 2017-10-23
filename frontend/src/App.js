@@ -1,17 +1,14 @@
-import React, { Component } from "react";
-import logo from "./img/arian.jpg";
-import "./App.css";
+import React, { Component } from "react"
+import logo from "./img/arian.jpg"
+import "./App.css"
+
+import Navigation from "./Navigation"
 
 class App extends Component {
   render() {
     return (
       <div className="web container">
-        <nav>
-          <a href="index.html">Home</a> &nbsp;
-          <a href="about.html">About me</a> &nbsp;
-          <a href="portofolio.html">Portofolio</a> &nbsp;
-          <a href="contact.html">Contact</a>&nbsp;
-        </nav>
+        <Navigation />
         <div className="row">
           <header className="web-header">
             <img src={logo} className="web-logo" alt="logo" />
@@ -27,12 +24,18 @@ class App extends Component {
         </div>
 
         <nav>
-          <a href="https://www.facebook.com/">Facebook</a> &nbsp;
-          <a href="https://www.linkedin.com/">Linkedin</a> &nbsp;
+          <ul className="nav-ul">
+            <li>
+              <a href="https://www.facebook.com/">Facebook</a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/">Linkedin</a>
+            </li>
+          </ul>
         </nav>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
