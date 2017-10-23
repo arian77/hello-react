@@ -20,6 +20,10 @@
   color: #000000;
 }
 
+.row {
+  padding: 10px;
+}
+
 .web-intro {
   font-size: large;
 }
