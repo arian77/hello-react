@@ -1,20 +1,15 @@
 import React, { Component } from "react"
-import logo from "./img/arian.jpg"
 import "./App.css"
 
 import Navigation from "./Navigation"
+import Header from "./Header"
 
 class App extends Component {
   render() {
     return (
       <div className="web container">
         <Navigation />
-        <div className="row">
-          <header className="web-header">
-            <img src={logo} className="web-logo" alt="logo" />
-            <h1 className="web-title">Welcome to my Personal Website</h1>
-          </header>
-        </div>
+        <Header />
 
         <div className="row">
           <p> Hello my name is Arian </p>
