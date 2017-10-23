@@ -25,6 +25,11 @@ class App extends Component {
         <div className="row">
           <footer> Copyright &copy; created by Arian Markus</footer>
         </div>
+
+        <nav>
+          <a href="https://www.facebook.com/">Facebook</a> &nbsp;
+          <a href="https://www.linkedin.com/">Linkedin</a> &nbsp;
+        </nav>
       </div>
     );
   }
