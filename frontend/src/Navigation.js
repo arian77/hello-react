@@ -1,5 +1,5 @@
-import React, { Component } from "react"
-import "./App.css"
+import React, { Component } from "react";
+import "./App.css";
 
 class Navigation extends Component {
   render() {
@@ -20,8 +20,8 @@ class Navigation extends Component {
           </li>
         </ul>
       </nav>
-    )
+    );
   }
 }
 
-export default Navigation
+export default Navigation;

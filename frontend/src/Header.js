@@ -1,7 +1,7 @@
-import React, { Component } from "react"
-import "./App.css"
+import React, { Component } from "react";
+import "./App.css";
 
-import logo from "./img/arian.jpg"
+import logo from "./img/arian.jpg";
 
 class Header extends Component {
   render() {
@@ -9,11 +9,13 @@ class Header extends Component {
       <div className="row">
         <header className="web-header">
           <img src={logo} className="web-logo" alt="logo" />
-          <h1 className="web-title">Welcome to my Personal Website</h1>
+          <h1 className="web-title">
+            Welcome to my personal website {this.props.name}
+          </h1>
         </header>
       </div>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;
