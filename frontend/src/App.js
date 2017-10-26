@@ -6,6 +6,7 @@ import Form from "./Form";
 import Navigation from "./Navigation";
 import Header from "./Header";
 import Person from "./Person";
+import Contact from "./Contact";
 
 // const DATA_PEOPLE = [
 //   {
@@ -61,6 +62,8 @@ class App extends React.Component {
             </i>
           </p>
         </div>
+
+        <Contact />
         <div className="row">
           <footer> Copyright &copy; created by Arian Markus</footer>
         </div>

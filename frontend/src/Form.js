@@ -40,7 +40,7 @@ class SubmissionForm extends React.Component {
 
   render() {
     return (
-      <Form>
+      <Form className="forms">
         <FormGroup row>
           <Label for="inputId" sm={2}>
             ID
