@@ -7,6 +7,7 @@ import Navigation from "./Navigation";
 import Header from "./Header";
 import Person from "./Person";
 import Contact from "./Contact";
+import Remove from "./Remove";
 
 // const DATA_PEOPLE = [
 //   {
